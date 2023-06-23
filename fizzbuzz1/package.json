@@ -2,7 +2,8 @@
   "name": "fizzbuzz1",
   "version": "1.0.0",
   "description": "",
-  "main": "fizzbuzz.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"
@@ -15,6 +16,8 @@
     "vitest": "0.32.2"
   },
   "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "extends": [
+      "@standard/eslintrc.json"
+    ]
   }
 }
