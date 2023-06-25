@@ -1,0 +1,23 @@
+{
+  "name": "2021_ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0",
+    "vitest": "0.32.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@standard/eslintrc.json"
+    ]
+  }
+}
