@@ -1,4 +1,5 @@
-function listGifts(letter) {
+export const listGifts = (letter) => {
+	if (typeof letter !== 'string') throw new Error('from is not a string');
 	const valid = letter
 		.trim()
 		.split(' ')
