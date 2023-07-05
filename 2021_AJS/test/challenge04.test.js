@@ -1,12 +1,13 @@
 import { describe, it, expect } from 'vitest';
 
 //the function draw a tree using a text as a entry
+//the tree always have a base
 
 const tree = (text) => {
-  if (text == undefined) throw new Error('letter has no info');
-  if (typeof letter !== 'string') throw new Error('letter is not a valid string');
-  return null
-}
+	if (text == undefined) throw new Error('letter has no info');
+	if (typeof letter !== 'string') throw new Error('letter is not a valid string');
+	return null;
+};
 
 describe('tree', () => {
 	it('should be a function', () => {
@@ -21,5 +22,4 @@ describe('tree', () => {
 	// it('should return false if the first character is a )', () => {
 	// 	expect(tree(') test text')).toBeFalsy();
 	// });
-  
 });
